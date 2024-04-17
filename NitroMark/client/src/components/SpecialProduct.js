@@ -27,7 +27,7 @@ const SpecialProduct = (props) => {
         <div className="special-product-card" >
           <div className="d-flex " style={{ minHeight: "269px" }}>
             <div className="flex-space">
-              <img src={`${product.images[0].url}`} className="img-fluid" alt="watch" />
+              <img src={`${product.images[0]?.url}`} className="img-fluid" alt="watch" />
             </div>
             <div className="special-product-content">
               <div>
