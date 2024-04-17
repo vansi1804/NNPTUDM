@@ -1,7 +1,7 @@
 const User = require("../models/userModel");
 const Product = require("../models/productModel");
 const Cart = require("../models/cartModel");
-const Coupon = require("../models/coupomModel");
+const Coupon = require("../models/couponModel");
 const Order = require("../models/orderModel");
 const asyncHandler = require("express-async-handler");
 const { generateToken } = require("../configs/jwtToken");

@@ -58,8 +58,9 @@
 
 const express = require('express');
 const dotenv = require("dotenv").config();
-const createAdminIfNotExists = require('./utils/defaultAdminCreation');
 const dbConnect = require('./configs/dbConnect');
+const createAdminIfNotExists = require('./utils/defaultAdminCreation');
+const { createBasicColors } = require('./utils/defaultColorCreation');
 const bodyParser = require('body-parser');
 const authRouter = require('./routes/authRoute');
 const productRoute = require('./routes/productRoute');
@@ -75,7 +76,6 @@ const { notFound, errorHandler } = require('./middlewares/errorHandler');
 const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
 const cors = require('cors');
-
 const app = express();
 const PORT = process.env.PORT || 4000;
 
@@ -84,7 +84,8 @@ dbConnect();
 
 // Check if an admin user exists and create one if not
 createAdminIfNotExists()
-    .then(() => {
+    .then(async () => {
+        await createBasicColors();
         // Middleware
         app.use(cors());
         app.use(cookieParser());
