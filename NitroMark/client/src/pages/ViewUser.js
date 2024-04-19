@@ -61,7 +61,7 @@ const ViewUser = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="auth-card">
-                        <h3 className="mb-4 title text-center">User {`${formik.values.lastname} ${formik.values.firstname}`}</h3>
+                        <h3 className="mb-4 title text-center">Profile</h3>
                         <div>
                             <form
                                 onSubmit={formik.handleSubmit}

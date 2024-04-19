@@ -175,10 +175,9 @@ const Header = () => {
                           style={{ height: "auto", lineHeight: "20px" }}
                           to={`/login`}
                         >
-                          Login <br /> My Account
+                          Login <br />
                         </Link>
                       )}
-
                   </div>
                 </div>
                 <div>
@@ -235,7 +234,7 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/" onClick={() => handleLoadProduct()}>Home</NavLink>
-                    <NavLink to="/product" onClick={() => handleLoadProduct()}>Our Store</NavLink>
+                    <NavLink to="/product" onClick={() => handleLoadProduct()}>Products</NavLink>
                     <NavLink to="/blogs">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>

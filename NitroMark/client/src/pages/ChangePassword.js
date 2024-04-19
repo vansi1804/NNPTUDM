@@ -108,7 +108,7 @@ const ChangePassword = () => {
                                 </div>
                                 <div>
                                     <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
-                                        <button className="button border-0" type="submit">Ok</button>
+                                        <button className="button border-0" type="submit">Change Password</button>
                                     </div>
                                 </div>
                             </form>

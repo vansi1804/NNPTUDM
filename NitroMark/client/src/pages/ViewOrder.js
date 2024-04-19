@@ -13,11 +13,7 @@ const columns = [
     dataIndex: "key",
   },
   {
-    title: "Product",
-    dataIndex: "product",
-  },
-  {
-    title: "Amount",
+    title: "Total price",
     dataIndex: "amount",
   },
   {
@@ -56,7 +52,6 @@ const ViewOrder = () => {
   for (let i = 0; i < orderState?.length; i++) {
     data1.push({
       key: i + 1,
-      product: orderState[i]?.products?.lenght || "",
       note: orderState[i]?.paymentIntent.note || "",
       address: orderState[i]?.paymentIntent.address || "",
       amount: orderState[i]?.paymentIntent.amount || "",
