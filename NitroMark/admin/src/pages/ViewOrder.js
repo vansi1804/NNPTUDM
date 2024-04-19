@@ -11,6 +11,10 @@ const columns = [
     dataIndex: "key",
   },
   {
+    title: "Image",
+    dataIndex: "image",
+  },
+  {
     title: "Product",
     dataIndex: "product",
   },
@@ -19,20 +23,16 @@ const columns = [
     dataIndex: "brand",
   },
   {
-    title: "Count",
-    dataIndex: "count",
+    title: "Amount",
+    dataIndex: "amount",
   },
   {
     title: "Color",
     dataIndex: "color",
   },
   {
-    title: "Amount",
-    dataIndex: "amount",
-  },
-  {
-    title: "Date",
-    dataIndex: "date",
+    title: "Price",
+    dataIndex: "price",
   },
 ];
 
@@ -51,12 +51,22 @@ const ViewOrder = () => {
   for (let i = 0; i < orderState.length; i++) {
     data1.push({
       key: i + 1,
+      image: (
+        <div
+          style={{
+            backgroundImage: `url(${orderState[i].product.images[0]?.url})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "100px",
+            width: "100px",
+          }}
+        ></div>
+      ),
       product: orderState[i].product.title,
       brand: orderState[i].product.brand,
-      count: orderState[i].count,
-      amount: orderState[i].product.price,
+      amount: orderState[i].count,
+      price: orderState[i].product.price,
       color: orderState[i].product.color,
-      date: orderState[i].product.createdAt,
     });
   }
   return (

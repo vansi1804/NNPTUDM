@@ -16,12 +16,12 @@ const columns = [
     dataIndex: "name",
   },
   {
-    title: "Product",
-    dataIndex: "product",
+    title: "Details",
+    dataIndex: "details",
   },
   {
-    title: "Amount",
-    dataIndex: "amount",
+    title: "Total price",
+    dataIndex: "price",
   },
   {
     title: "Date",
@@ -31,10 +31,10 @@ const columns = [
     title: "Status",
     dataIndex: "status",
   },
-  {
-    title: "Action",
-    dataIndex: "action",
-  },
+  // {
+  //   title: "Action",
+  //   dataIndex: "action",
+  // },
 ];
 
 const Orders = () => {
@@ -68,27 +68,27 @@ const Orders = () => {
     data1.push({
       key: i + 1,
       name: orderState[i].orderby.firstname + " " + orderState[i].orderby.lastname,
-      product: (
+      details: (
         <Link to={`/admin/order/${orderState[i].orderby._id}`}>
           Details
         </Link>
       ),
-      amount: orderState[i].paymentIntent.amount,
+      price: orderState[i].paymentIntent.amount,
       date: new Date(orderState[i].createdAt).toLocaleString(),
       status: orderState[i].paymentIntent.status,
-      action: (
-        <>
-          <Link to={`/admin/order/${orderState[i].orderby._id}`} className=" fs-3 text-danger">
-            <BiEdit />
-          </Link>
-          <button
-            className="ms-3 fs-3 text-danger bg-transparent border-0"
-            onClick={() => showModal(orderState[i]._id)}
-          >
-            {/* <AiFillDelete /> */}
-          </button>
-        </>
-      ),
+      // action: (
+      //   <>
+      //     <Link to={`/admin/order/${orderState[i].orderby._id}`} className=" fs-3 text-danger">
+      //       {/* <BiEdit /> */}
+      //     </Link>
+      //     <button
+      //       className="ms-3 fs-3 text-danger bg-transparent border-0"
+      //       onClick={() => showModal(orderState[i]._id)}
+      //     >
+      //       {/* <AiFillDelete /> */}
+      //     </button>
+      //   </>
+      // ),
     });
   }
   return (

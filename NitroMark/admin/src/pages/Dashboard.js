@@ -20,8 +20,8 @@ const columns = [
     dataIndex: "name",
   },
   {
-    title: "Product",
-    dataIndex: "product",
+    title: "Details",
+    dataIndex: "details",
   },
   {
     title: "Status",
@@ -60,7 +60,7 @@ const Dashboard = () => {
     data1.push({
       key: i + 1,
       name: orderState[i].orderby.firstname + " " + orderState[i].orderby.lastname,
-      product: (
+      details: (
         <Link to={`/admin/order/${orderState[i].orderby._id}`}>
           Details
         </Link>
