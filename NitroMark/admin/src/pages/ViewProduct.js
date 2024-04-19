@@ -117,126 +117,151 @@ const ViewProduct = () => {
                     onSubmit={formik.handleSubmit}
                     className="d-flex gap-3 flex-column"
                 >
-                    <CustomInput
-                        type="text"
-                        label="Enter Product Title"
-                        name="title"
-                        onChng={formik.handleChange("title")}
-                        onBlr={formik.handleBlur("title")}
-                        val={formik.values.title}
-                    />
-                    <div className="error">
-                        {formik.touched.title && formik.errors.title}
-                    </div>
-                    <div className="">
-                        <ReactQuill
-                            theme="snow"
-                            name="description"
-                            onChange={formik.handleChange("description")}
-                            value={formik.values.description}
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Title:</label>
+                        <CustomInput
+                            type="text"
+                            name="title"
+                            onChng={formik.handleChange("title")}
+                            onBlr={formik.handleBlur("title")}
+                            val={formik.values.title}
                         />
-                    </div>
-                    <div className="error">
-                        {formik.touched.description && formik.errors.description}
-                    </div>
-                    <CustomInput
-                        type="number"
-                        label="Enter Product Price"
-                        name="price"
-                        onChng={formik.handleChange("price")}
-                        onBlr={formik.handleBlur("price")}
-                        val={formik.values.price}
-                    />
-                    <div className="error">
-                        {formik.touched.price && formik.errors.price}
-                    </div>
-                    <select
-                        name="brand"
-                        onChange={formik.handleChange("brand")}
-                        onBlur={formik.handleBlur("brand")}
-                        value={formik.values.brand}
-                        className="form-control py-3 mb-3"
-                        id=""
-                    >
-                        <option value="">Select Brand</option>
-                        {brandState.map((i, j) => {
-                            return (
-                                <option key={j} value={i.title}>
-                                    {i.title}
-                                </option>
-                            );
-                        })}
-                    </select>
-                    <div className="error">
-                        {formik.touched.brand && formik.errors.brand}
-                    </div>
-                    <select
-                        name="category"
-                        onChange={formik.handleChange("category")}
-                        onBlur={formik.handleBlur("category")}
-                        value={formik.values.category}
-                        className="form-control py-3 mb-3"
-                        id=""
-                    >
-                        <option value="">Select Category</option>
-                        {catState.map((i, j) => {
-                            return (
-                                <option key={j} value={i.title}>
-                                    {i.title}
-                                </option>
-                            );
-                        })}
-                    </select>
-                    <div className="error">
-                        {formik.touched.category && formik.errors.category}
-                    </div>
-                    <select
-                        name="tags"
-                        onChange={formik.handleChange("tags")}
-                        onBlur={formik.handleBlur("tags")}
-                        value={formik.values.tags}
-                        className="form-control py-3 mb-3"
-                        id=""
-                    >
-                        <option value="" disabled>
-                            Select Category
-                        </option>
-                        <option value="featured">Featured</option>
-                        <option value="popular">Popular</option>
-                        <option value="special">Special</option>
-                    </select>
-                    <div className="error">
-                        {formik.touched.tags && formik.errors.tags}
+                        <div className="error">
+                            {formik.touched.title && formik.errors.title}
+                        </div>
                     </div>
 
-                    <select
-                        name="color"
-                        onChange={formik.handleChange("color")}
-                        onBlur={formik.handleBlur("color")}
-                        value={formik.values.color}
-                        className="form-control py-3 mb-3"
-                        id=""
-                    >
-                        <option value="">Select Color</option>
-                        {colorState.map((i, j) => {
-                            return (
-                                <option key={j} value={i.title}>
-                                    {i.title}
-                                </option>
-                            );
-                        })}
-                    </select>
-                    <CustomInput
-                        type="number"
-                        label="Enter Product Quantity"
-                        name="quantity"
-                        onChng={formik.handleChange("quantity")}
-                        onBlr={formik.handleBlur("quantity")}
-                        val={formik.values.quantity}
-                    />
-                    <div className="error">
-                        {formik.touched.quantity && formik.errors.quantity}
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Description:</label>
+                        <div className="">
+                            <ReactQuill
+                                theme="snow"
+                                name="description"
+                                onChange={formik.handleChange("description")}
+                                value={formik.values.description}
+                            />
+                        </div>
+                        <div className="error">
+                            {formik.touched.description && formik.errors.description}
+                        </div>
                     </div>
+
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Price:</label>
+                        <CustomInput
+                            type="number"
+                            name="price"
+                            onChng={formik.handleChange("price")}
+                            onBlr={formik.handleBlur("price")}
+                            val={formik.values.price}
+                        />
+                        <div className="error">
+                            {formik.touched.price && formik.errors.price}
+                        </div>
+                    </div>
+
+
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Brand:</label>
+                        <select
+                            name="brand"
+                            id="brand"
+                            onChange={formik.handleChange("brand")}
+                            onBlur={formik.handleBlur("brand")}
+                            value={formik.values.brand}
+                            className="form-control py-3 mb-3"
+                        >
+                            {brandState.map((brand, index) => (
+                                <option key={index} value={brand.title}>
+                                    {brand.title}
+                                </option>
+                            ))}
+                        </select>
+                        {formik.touched.brand && formik.errors.brand && (
+                            <div className="error">{formik.errors.brand}</div>
+                        )}
+                        <div className="error">
+                            {formik.touched.brand && formik.errors.brand}
+                        </div>
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Category:</label>
+                        <select
+                            name="category"
+                            onChange={formik.handleChange("category")}
+                            onBlur={formik.handleBlur("category")}
+                            value={formik.values.category}
+                            className="form-control py-3 mb-3"
+                            id=""
+                        >
+                            {catState.map((i, j) => {
+                                return (
+                                    <option key={j} value={i.title}>
+                                        {i.title}
+                                    </option>
+                                );
+                            })}
+                        </select>
+                        <div className="error">
+                            {formik.touched.category && formik.errors.category}
+                        </div>
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Tags:</label>
+                        <select
+                            name="tags"
+                            onChange={formik.handleChange("tags")}
+                            onBlur={formik.handleBlur("tags")}
+                            value={formik.values.tags}
+                            className="form-control py-3 mb-3"
+                            id=""
+                        >
+                            <option value="featured">Featured</option>
+                            <option value="popular">Popular</option>
+                            <option value="special">Special</option>
+                        </select>
+                        <div className="error">
+                            {formik.touched.tags && formik.errors.tags}
+                        </div>
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Color:</label>
+                        <select
+                            name="color"
+                            onChange={formik.handleChange("color")}
+                            onBlur={formik.handleBlur("color")}
+                            value={formik.values.color}
+                            className="form-control py-3 mb-3"
+                            id=""
+                        >
+                            <option value="">Select Color</option>
+                            {colorState.map((i, j) => {
+                                return (
+                                    <option key={j} value={i.title}>
+                                        {i.title}
+                                    </option>
+                                );
+                            })}
+                        </select>
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="brand" className="form-label">Quantity:</label>
+                        <CustomInput
+                            type="number"
+                            name="quantity"
+                            onChng={formik.handleChange("quantity")}
+                            onBlr={formik.handleBlur("quantity")}
+                            val={formik.values.quantity}
+                        />
+                        <div className="error">
+                            {formik.touched.quantity && formik.errors.quantity}
+                        </div>
+                    </div>
+
                     <div className="bg-white border-1 p-5 text-center">
                         <Dropzone
                             onDrop={(acceptedFiles) => dispatch(uploadImg(acceptedFiles))}
@@ -246,7 +271,7 @@ const ViewProduct = () => {
                                     <div {...getRootProps()}>
                                         <input {...getInputProps()} />
                                         <p>
-                                            Drag 'n' drop some files here, or click to select files
+                                            Drag 'n' drop some image here, or click to select image
                                         </p>
                                     </div>
                                 </section>
@@ -272,7 +297,7 @@ const ViewProduct = () => {
                         className="btn btn-success border-0 rounded-3 my-5"
                         type="submit"
                     >
-                        Save Product
+                        Save
                     </button>
                 </form>
             </div>

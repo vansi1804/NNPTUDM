@@ -14,6 +14,10 @@ const columns = [
     dataIndex: "key",
   },
   {
+    title: "Image",
+    dataIndex: "image",
+  },
+  {
     title: "Title",
     dataIndex: "title",
     sorter: (a, b) => a.title.length - b.title.length,
@@ -36,6 +40,11 @@ const columns = [
     title: "Price",
     dataIndex: "price",
     sorter: (a, b) => a.price - b.price,
+  },
+  {
+    title: "Sold",
+    dataIndex: "sold",
+    sorter: (a, b) => a.sold - b.sold,
   },
   {
     title: "Action",
@@ -73,11 +82,23 @@ const Productlist = () => {
   for (let i = 0; i < productState.length; i++) {
     data1.push({
       key: i + 1,
+      image: (
+        <div
+          style={{
+            backgroundImage: `url(${productState[i].images[0]?.url})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "100px",
+            width: "100px",
+          }}
+        ></div>
+      ),
       title: productState[i].title,
       brand: productState[i].brand,
       category: productState[i].category,
       color: (<div style={{ backgroundColor: `${productState[i].color}`, height: "20px", width: "40px" }}></div>),
       price: `${productState[i].price}`,
+      sold: `${productState[i].sold}`,
       action: (
         <>
           <Link to={`/admin/product/${productState[i]._id}`} className=" fs-3 text-danger">
@@ -87,7 +108,7 @@ const Productlist = () => {
             className="ms-3 fs-3 text-danger bg-transparent border-0"
             onClick={() => showModal(productState[i]._id)}
           >
-            <AiFillDelete />
+            {/* <AiFillDelete /> */}
           </button>
         </>
       ),
