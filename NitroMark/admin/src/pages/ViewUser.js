@@ -65,7 +65,7 @@ const ViewUser = () => {
 
     return (
         <div>
-            <h3 className="mb-4 title text-center">Profile</h3>
+            <h3 className="mb-4 title text-center">User {`${formik.values.lastname} ${formik.values.firstname}`}</h3>
             <div>
                 <form
                     onSubmit={formik.handleSubmit}
@@ -124,6 +124,9 @@ const ViewUser = () => {
                         value={formik.values.role}
                         className="form-control py-3 mb-3"
                     >
+                        <option value="" disabled>
+                            Select Roles
+                        </option>
                         <option value="featured">Admin</option>
                         <option value="popular">User</option>
                     </select>
@@ -134,7 +137,7 @@ const ViewUser = () => {
 
                     <CustomInput
                         type="text"
-                        label="Enter Your Address"
+                        label="Enter Product Price"
                         name="address"
                         onChng={formik.handleChange("address")}
                         onBlr={formik.handleBlur("address")}

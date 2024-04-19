@@ -81,7 +81,7 @@ const Checkout = () => {
                     className="breadcrumb-item total-price active"
                     aria-current="page"
                   >
-                    Payment
+                    Checkout
                   </li>
                 </ol>
               </nav>
@@ -206,7 +206,7 @@ const Checkout = () => {
                   <h5 className="total-price">$ {`${orders?.totalAfterDiscount + shipChart || orders?.cartTotal + shipChart}` || "0"}</h5>
                 </div>
                 <Link onClick={handlePayment} className="button " style={{ marginLeft: "400px" }}>
-                  Payment
+                  Checkout
                 </Link>
               </div>
               : <div className="col-5 px-5">

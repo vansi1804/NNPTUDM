@@ -52,7 +52,7 @@ const Checkout = () => {
                                         className="breadcrumb-item total-price active"
                                         aria-current="page"
                                     >
-                                        Payment
+                                        Checkout
                                     </li>
                                 </ol>
                             </nav>
@@ -72,6 +72,7 @@ const Checkout = () => {
                                         placeholder="Name"
                                         className="form-control"
                                         defaultValue={userinfo?.user ? userinfo?.user?.lastname + " " + userinfo?.user?.firstname : ""}
+                                        disabled
                                     />
                                 </div>
 
@@ -82,6 +83,8 @@ const Checkout = () => {
                                         placeholder="Address"
                                         className="form-control"
                                         defaultValue={userinfo?.user?.address || ""}
+                                        disabled
+
                                     />
                                 </div>
                                 <div className="w-100">
@@ -90,6 +93,7 @@ const Checkout = () => {
                                         name="note"
                                         placeholder="Note in order"
                                         className="form-control"
+                                        disabled
                                     />
                                 </div>
                                 <div className="flex-grow-1">
@@ -99,6 +103,7 @@ const Checkout = () => {
                                         placeholder="Phone Number"
                                         className="form-control"
                                         defaultValue={userinfo?.user?.mobile || ""}
+                                        disabled
                                     />
                                 </div>
                                 <div className="flex-grow-1">
@@ -107,6 +112,7 @@ const Checkout = () => {
                                         name="zip-code"
                                         placeholder="Zipcode"
                                         className="form-control"
+                                        disabled
                                     />
                                 </div>
                                 <div className="w-100">
@@ -136,7 +142,8 @@ const Checkout = () => {
                                             </div>
                                             <div>
                                                 <h5 className="total-price">{`${product?.product?.title}`}</h5>
-                                                <p className="total-price">$ {`${product?.product?.price}`}</p>
+                                                <p className="total-price">$ {product?.product?.price}</p>
+
                                             </div>
                                         </div>
                                         <div className="flex-grow-1">

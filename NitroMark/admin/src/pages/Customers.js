@@ -81,7 +81,7 @@ const Customers = () => {
               className="ms-3 fs-3 text-danger bg-transparent border-0"
               onClick={() => showModal(customerstate[i]._id)}
             >
-              <AiFillDelete />
+              {/* <AiFillDelete /> */}
             </button>
           </>
         ),

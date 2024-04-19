@@ -31,7 +31,7 @@ const CompareProduct = () => {
             <Link className="col-3 text-dark" key={index} to={`/product/${item._id}`}>
               <div className="compare-product-card position-relative">
                 <div className="product-card-image">
-                  <img src={`${item.images[0].url}`} alt="watch" />
+                  <img src={`${item.images[0]?.url}`} alt="watch" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title">

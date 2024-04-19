@@ -106,17 +106,18 @@ const Contact = () => {
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineHome className="fs-5" />
                       <address className="mb-0">
-                        475A Đ. Điện Biên Phủ, Phường 25, Bình Thạnh, Thành phố Hồ Chí Minh
+                        475A Street Dien Bien Phu, Ward 25, Binh Thanh, Ho Chi Minh City
+                        (HUTECH)
                       </address>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <BiPhoneCall className="fs-5" />
-                      <a href="tel:+84 949783948">+84 949783948</a>
+                      <a href="tel:+84 589176839">+84 589176839</a>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">
                       <AiOutlineMail className="fs-5" />
-                      <a href="mailto:ngdnien@gmail.com">
-                        ngdnien@gmail.com
+                      <a href="mailto:nitromark01@gmail.com">
+                        nitromark01@gmail.com
                       </a>
                     </li>
                     <li className="mb-3 d-flex gap-15 align-items-center">

@@ -50,7 +50,7 @@ const Wishlist = () => {
                 <Link to={`/product/${item._id}`} className="text-dark">
                   <div className="wishlist-card-image">
                     <img
-                      src={`${item?.images[0].url}`}
+                      src={`${item?.images[0]?.url}`}
                       className="img-fluid w-100"
                       alt="watch"
                       style={{ minHeight: "269px", objectFit: "cover" }}

@@ -22,9 +22,9 @@ const Cart = () => {
   }
 
   const handleChange = (value) => {
-    if (!value.id) {
-      toast.error("Something went wrong! Try again!!!");
-    }
+    // if (!value.id) {
+    //   toast.error("Something went wrong! Try again!!!");
+    // }
 
     dispatch(updateProductFromCart(value));
 

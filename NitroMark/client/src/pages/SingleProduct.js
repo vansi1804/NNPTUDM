@@ -50,7 +50,7 @@ const SingleProduct = () => {
 
 
   useEffect(() => {
-    setImageZoom(productInfo?.images[0].url)
+    setImageZoom(productInfo?.images[0]?.url)
   }, [productInfo?.images])
 
   useEffect(() => {
@@ -367,7 +367,7 @@ const SingleProduct = () => {
             <div className="modal-body py-0">
               <div className="d-flex align-items-center">
                 <div className="flex-grow-1 w-50">
-                  <img src={productInfo?.images[0].url} className="img-fluid" alt="product imgae" />
+                  <img src={productInfo?.images[0]?.url} className="img-fluid" alt="product imgae" />
                 </div>
                 <div className="d-flex flex-column flex-grow-1 w-50">
                   <h6 className="mb-3">{productInfo?.title}</h6>
@@ -382,9 +382,9 @@ const SingleProduct = () => {
               <button type="button" className="button border-0" data-bs-dismiss="modal" onClick={() => navigate("/cart")}>
                 View My Cart
               </button>
-              <button type="button" className="button signup">
+              {/* <button type="button" className="button signup">
                 Checkout
-              </button>
+              </button> */}
             </div>
             <div className="d-flex justify-content-center py-3">
               <Link

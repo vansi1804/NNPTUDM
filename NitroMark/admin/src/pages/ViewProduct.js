@@ -10,10 +10,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { getBrands } from "../features/brand/brandSlice";
 import { getCategories } from "../features/pcategory/pcategorySlice";
 import { getColors } from "../features/color/colorSlice";
-import { Select } from "antd";
 import Dropzone from "react-dropzone";
 import { delImg, uploadImg } from "../features/upload/uploadSlice";
-import { createProducts, getAProduct, resetState, updateAProduct } from "../features/product/productSlice";
+import { getAProduct, resetState, updateAProduct } from "../features/product/productSlice";
+
 let schema = yup.object().shape({
     title: yup.string().required("Title is Required"),
     description: yup.string().required("Description is Required"),

@@ -12,19 +12,23 @@ const Footer = () => {
               <h4 className="text-white mb-4">Contact Us</h4>
               <div>
                 <address className="text-white fs-6">
-                  Hiệp Phú, Quận 9 <br /> Thành phố Hồ Chí Minh <br />
+                  475A Street Dien Bien Phu,
+                   <br /> 
+                   Ward 25, Binh Thanh,
+                  <br /> Ho Chi Minh City
+                  <br /> (HUTECH)
                 </address>
                 <a
                   href="tel:+91 8264954234"
                   className="mt-3 d-block mb-1 text-white"
                 >
-                  +84 949783948
+                  +84 589176839
                 </a>
                 <a
-                  href="mailto:ngdnien@gmail.com"
+                  href="mailto:nitromark@gmail.com"
                   className="mt-2 d-block mb-0 text-white"
                 >
-                  ngdnien@gmail.com
+                  nitromark@gmail.com
                 </a>
                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
                   <a className="text-white" href="/">

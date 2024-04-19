@@ -4,6 +4,7 @@ import {
   AiOutlineDashboard,
   AiOutlineShoppingCart,
   AiOutlineUser,
+  AiOutlineBgColors,
 } from "react-icons/ai";
 import { RiCouponLine } from "react-icons/ri";
 import { ToastContainer } from "react-toastify";
@@ -45,7 +46,7 @@ const MainLayout = () => {
             <span className="lg-logo">NITRO MARK</span>
           </h2>
         </div>
-        <div style={{ overflow: 'auto', height: 'calc(100vh - 64px)' }}>
+        <div style={{ overflowY: 'auto', height: 'calc(100vh - 64px)' }}>
           <Menu
             theme="dark"
             mode="inline"
@@ -102,16 +103,16 @@ const MainLayout = () => {
                     icon: <BiCategoryAlt className="fs-4" />,
                     label: "Category List",
                   },
-                  // {
-                  //   key: "color",
-                  //   icon: <AiOutlineBgColors className="fs-4" />,
-                  //   label: "Color",
-                  // },
-                  // {
-                  //   key: "list-color",
-                  //   icon: <AiOutlineBgColors className="fs-4" />,
-                  //   label: "Color List",
-                  // },
+                  {
+                    key: "color",
+                    icon: <AiOutlineBgColors className="fs-4" />,
+                    label: "Color",
+                  },
+                  {
+                    key: "list-color",
+                    icon: <AiOutlineBgColors className="fs-4" />,
+                    label: "Color List",
+                  },
                 ],
               },
               {
@@ -197,7 +198,7 @@ const MainLayout = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <h5 className="mb-0">{user.firstname} {user.lastname}</h5>
+                <h5 className="mb-0">{user.firstname}</h5>
                 <p className="mb-0">{user.email}</p>
               </div>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">

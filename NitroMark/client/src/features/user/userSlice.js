@@ -491,7 +491,7 @@ export const authSlice = createSlice({
                 state.isSuccess = true;
                 state.detailOrder = action.payload;
                 if (state.isSuccess) {
-                    toast.success("Payment Success")
+                    toast.success("Checkout is processing")
                 }
             })
             .addCase(createOrder.rejected, (state, action) => {
