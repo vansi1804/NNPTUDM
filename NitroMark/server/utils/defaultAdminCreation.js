@@ -3,9 +3,9 @@ const User = require("../models/userModel");
 const defaultAdminTemplate = new User({
    firstname: 'Nguyen',
    lastname: 'Admin',
-   email: 'e.commerce.app.04.01@gmail.com',
+   email: 'nitromark01@gmail.com',
    mobile: '0999999999',
-   password: 'admin',
+   password: 'nvs123123',
    role: 'admin',
    address: '26 Street 34, Linh Dong, Thu Duc, Viet Nam',
 });
@@ -18,7 +18,7 @@ async function createAdminIfNotExists() {
 
       if (!isDefaultAdminExisting) {
          await defaultAdminTemplate.save();
-         console.log(`Admin user with default email: ${defaultAdminTemplate.email} created successfully.`);
+         console.log(`User with role admin created successfully with default email: ${defaultAdminTemplate.email} .`);
       } else {
          console.log(`Existing admin user with default email: ${defaultAdminTemplate.email}`);
       }

@@ -57,7 +57,7 @@ const Addblog = () => {
 
   useEffect(() => {
     if (isSuccess && createdBlog) {
-      toast.success("Blog Added Successfullly!");
+      toast.success("Blog Added Successfully!");
     }
     if (isSuccess && updatedBlog) {
       toast.success("Blog Updated Successfullly!");

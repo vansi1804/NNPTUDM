@@ -11,8 +11,8 @@ const columns = [
     dataIndex: "key",
   },
   {
-    title: "Product Name",
-    dataIndex: "name",
+    title: "Product",
+    dataIndex: "product",
   },
   {
     title: "Brand",
@@ -34,11 +34,6 @@ const columns = [
     title: "Date",
     dataIndex: "date",
   },
-
-  {
-    title: "Action",
-    dataIndex: "action",
-  },
 ];
 
 const ViewOrder = () => {
@@ -56,24 +51,17 @@ const ViewOrder = () => {
   for (let i = 0; i < orderState.length; i++) {
     data1.push({
       key: i + 1,
-      name: orderState[i].product.title,
+      product: orderState[i].product.title,
       brand: orderState[i].product.brand,
       count: orderState[i].count,
       amount: orderState[i].product.price,
       color: orderState[i].product.color,
       date: orderState[i].product.createdAt,
-      action: (
-        <>
-          <Link className="ms-3 fs-3 text-danger" to="/">
-            <AiFillDelete />
-          </Link>
-        </>
-      ),
     });
   }
   return (
     <div>
-      <h3 className="mb-4 title">View Order</h3>
+      <h3 className="mb-4 title">Order details</h3>
       <div>
         <Table columns={columns} dataSource={data1} />
       </div>

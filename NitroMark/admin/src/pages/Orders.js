@@ -27,7 +27,10 @@ const columns = [
     title: "Date",
     dataIndex: "date",
   },
-
+  {
+    title: "Status",
+    dataIndex: "status",
+  },
   {
     title: "Action",
     dataIndex: "action",
@@ -64,14 +67,15 @@ const Orders = () => {
   for (let i = 0; i < orderState.length; i++) {
     data1.push({
       key: i + 1,
-      name: orderState[i].orderby.firstname,
+      name: orderState[i].orderby.firstname + " " + orderState[i].orderby.lastname,
       product: (
         <Link to={`/admin/order/${orderState[i].orderby._id}`}>
-          View Orders
+          Details
         </Link>
       ),
       amount: orderState[i].paymentIntent.amount,
       date: new Date(orderState[i].createdAt).toLocaleString(),
+      status: orderState[i].paymentIntent.status,
       action: (
         <>
           <Link to={`/admin/order/${orderState[i].orderby._id}`} className=" fs-3 text-danger">
@@ -81,7 +85,7 @@ const Orders = () => {
             className="ms-3 fs-3 text-danger bg-transparent border-0"
             onClick={() => showModal(orderState[i]._id)}
           >
-            <AiFillDelete />
+            {/* <AiFillDelete /> */}
           </button>
         </>
       ),

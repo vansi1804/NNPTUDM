@@ -4,10 +4,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { getUsers, getUsersonSearch } from "../features/cutomers/customerSlice";
 import { Link } from "react-router-dom";
 import { BiEdit, BiBlock } from "react-icons/bi";
-import { AiFillDelete, AiOutlineCheckCircle } from "react-icons/ai";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 import CustomModal from "../components/CustomModal";
 import { blockAUser, deleteAUser, unBlockAUser } from "../features/auth/authSlice";
 import { BsSearch } from "react-icons/bs";
+import { toast } from "react-toastify";
+
 const columns = [
   {
     title: "SNo",
@@ -27,8 +29,16 @@ const columns = [
     dataIndex: "mobile",
   },
   {
-    title: "Action",
-    dataIndex: "action",
+    title: "Address",
+    dataIndex: "address",
+  },
+  {
+    title: "Joined date",
+    dataIndex: "createdAt",
+  },
+  {
+    title: "Status",
+    dataIndex: "status",
   },
 ];
 
@@ -56,18 +66,14 @@ const Customers = () => {
   for (let i = 0; i < customerstate.length; i++) {
     if (customerstate[i].role !== "admin") {
       data1.push({
-        key: i + 1,
-        name: customerstate[i].firstname + " " + customerstate[i].lastname,
+        key: data1.length + 1,
+        name: `${customerstate[i].firstname} ${customerstate[i].lastname}`,
         email: customerstate[i].email,
         mobile: customerstate[i].mobile,
-        action: (
+        address: customerstate[i].address,
+        createdAt: new Date(customerstate[i].createdAt).toLocaleString(),
+        status: (
           <>
-            <Link
-              to={`/admin/get-user/${customerstate[i]._id}`}
-              className=" fs-3 text-danger"
-            >
-              <BiEdit />
-            </Link>
             {customerstate[i].isBlocked ?
               (<button className="ms-3 fs-3 text-danger bg-transparent border-0"
                 onClick={() => handleUnBlock(customerstate[i]._id)}>
@@ -98,26 +104,27 @@ const Customers = () => {
   };
 
   const handleBlock = (e) => {
+    toast.success("Block user Successfully!");
     dispatch(blockAUser(e));
     setOpen(false);
     setTimeout(() => {
       dispatch(getUsers());
-    }, 3000);
+    }, 10);
   };
 
   const handleUnBlock = (e) => {
+    toast.success("Unblock user Successfully!");
     dispatch(unBlockAUser(e));
     setOpen(false);
     setTimeout(() => {
       dispatch(getUsers());
-    }, 3000);
+    }, 10);
   };
   const handleSetValue = (value) => {
     setOnSearch(value);
   }
   const handleSearch = () => {
     dispatch(getUsersonSearch(onSearch));
-    setOnSearch("");
   }
   return (
     <div>
