@@ -1,0 +1,94 @@
+[{
+  "_id": {
+    "$oid": "662010da5938418d6fedd4e4"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "64070c0750b75a7ae8872a64"
+      },
+      "count": 3,
+      "color": "Black",
+      "_id": {
+        "$oid": "662010a65938418d6fedd409"
+      }
+    }
+  ],
+  "paymentIntent": {
+    "id": "g2pcfb70lv44q2qt",
+    "method": "COD",
+    "amount": 840,
+    "status": "Processing",
+    "created": {
+      "$numberLong": "1713377498213"
+    },
+    "currency": "usd",
+    "address": "475A, Dien Bien Phu",
+    "note": "",
+    "sendTo": "Sĩ Nguyễn",
+    "phone": "91767477"
+  },
+  "orderStatus": "Processing",
+  "orderby": {
+    "$oid": "661fe1bff914cc56fcc8dd05"
+  },
+  "createdAt": {
+    "$date": "2024-04-17T18:11:38.215Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:11:38.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662011bd5938418d6fedd750"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "64070b8350b75a7ae88729de"
+      },
+      "count": 2,
+      "color": "Black",
+      "_id": {
+        "$oid": "6620117a5938418d6fedd57a"
+      }
+    },
+    {
+      "product": {
+        "$oid": "63fd68d00e2874ab6b4cc6ca"
+      },
+      "count": 2,
+      "color": "Black",
+      "_id": {
+        "$oid": "662011a25938418d6fedd669"
+      }
+    }
+  ],
+  "paymentIntent": {
+    "id": "g2pcfb70lv44uxyk",
+    "method": "COD",
+    "amount": 1800,
+    "status": "Cash on Delivery",
+    "created": {
+      "$numberLong": "1713377725293"
+    },
+    "currency": "usd",
+    "address": "475A, Dien Bien Phu",
+    "note": "",
+    "sendTo": "Sĩ Nguyễn",
+    "phone": "91767477"
+  },
+  "orderStatus": "Not Processed",
+  "orderby": {
+    "$oid": "661fe1bff914cc56fcc8dd05"
+  },
+  "createdAt": {
+    "$date": "2024-04-17T18:15:25.295Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:15:25.295Z"
+  },
+  "__v": 0
+}]

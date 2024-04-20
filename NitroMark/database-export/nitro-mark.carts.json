@@ -1,0 +1,179 @@
+[{
+  "_id": {
+    "$oid": "662012585938418d6fedd7b5"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "640709d050b75a7ae887292e"
+      },
+      "count": 1,
+      "color": "Black",
+      "price": 500,
+      "title": "Dell Gaming g15 5511 i5",
+      "images": [
+        {
+          "public_id": "wchgl088yuyjuzamibc2",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182856/wchgl088yuyjuzamibc2.jpg",
+          "_id": {
+            "$oid": "640709d050b75a7ae887292f"
+          }
+        },
+        {
+          "public_id": "bqnsg1mjxbvbwu0nlzda",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182858/bqnsg1mjxbvbwu0nlzda.jpg",
+          "_id": {
+            "$oid": "640709d050b75a7ae8872930"
+          }
+        },
+        {
+          "public_id": "csddjoic5zcipwsvlfgc",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182859/csddjoic5zcipwsvlfgc.jpg",
+          "_id": {
+            "$oid": "640709d050b75a7ae8872931"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66228e05a68a4ed6c74628dd"
+      }
+    },
+    {
+      "product": {
+        "$oid": "64070b8350b75a7ae88729de"
+      },
+      "count": 1,
+      "color": "Black",
+      "price": 300,
+      "title": "Samsung Galaxy Zflip4",
+      "images": [
+        {
+          "public_id": "bd1d0rebl8c4u6huzlty",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183292/bd1d0rebl8c4u6huzlty.jpg",
+          "_id": {
+            "$oid": "64070b8350b75a7ae88729e0"
+          }
+        },
+        {
+          "public_id": "ojtjj9irmoqtwwdhxawy",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183293/ojtjj9irmoqtwwdhxawy.jpg",
+          "_id": {
+            "$oid": "64070b8350b75a7ae88729e1"
+          }
+        },
+        {
+          "public_id": "mhqrvudi7lj1bbwejbui",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183295/mhqrvudi7lj1bbwejbui.jpg",
+          "_id": {
+            "$oid": "64070b8350b75a7ae88729e2"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "66228e25a68a4ed6c7462919"
+      }
+    }
+  ],
+  "cartTotal": 800,
+  "isDiscount": false,
+  "orderby": {
+    "$oid": "661fe1bff914cc56fcc8dd05"
+  },
+  "createdAt": {
+    "$date": "2024-04-17T18:18:00.734Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T15:30:45.691Z"
+  },
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "662088c75938418d6feddea8"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "63fd668b0e2874ab6b4cc648"
+      },
+      "count": 1,
+      "color": "Black",
+      "price": 600,
+      "title": "Apple Macbook Air 13inch",
+      "images": [
+        {
+          "public_id": "or3v4rx22rkpfqgzrtiw",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551235/or3v4rx22rkpfqgzrtiw.png",
+          "_id": {
+            "$oid": "63fd668b0e2874ab6b4cc649"
+          }
+        },
+        {
+          "public_id": "zumh3ah0lodhrjgmcs0y",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551237/zumh3ah0lodhrjgmcs0y.png",
+          "_id": {
+            "$oid": "63fd668b0e2874ab6b4cc64a"
+          }
+        },
+        {
+          "public_id": "v1fq40nz6vz5yz8p78y4",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551238/v1fq40nz6vz5yz8p78y4.png",
+          "_id": {
+            "$oid": "63fd668b0e2874ab6b4cc64b"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "662088c75938418d6feddea9"
+      }
+    },
+    {
+      "product": {
+        "$oid": "63fd67a80e2874ab6b4cc680"
+      },
+      "count": 2,
+      "color": "Black",
+      "price": 700,
+      "title": "Apple Macbook Pro 16inch",
+      "images": [
+        {
+          "public_id": "hh7vxesjbqkutzyrwdey",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551520/hh7vxesjbqkutzyrwdey.png",
+          "_id": {
+            "$oid": "63fd67a80e2874ab6b4cc681"
+          }
+        },
+        {
+          "public_id": "mowxampcwvahgfmhkqay",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551522/mowxampcwvahgfmhkqay.png",
+          "_id": {
+            "$oid": "63fd67a80e2874ab6b4cc682"
+          }
+        },
+        {
+          "public_id": "bgnb4jgjh4suebf4njes",
+          "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551523/bgnb4jgjh4suebf4njes.png",
+          "_id": {
+            "$oid": "63fd67a80e2874ab6b4cc683"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "662088c75938418d6feddead"
+      }
+    }
+  ],
+  "cartTotal": 2000,
+  "isDiscount": true,
+  "orderby": {
+    "$oid": "662086015938418d6fedde3a"
+  },
+  "createdAt": {
+    "$date": "2024-04-18T02:43:19.017Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:43:50.759Z"
+  },
+  "__v": 0,
+  "totalAfterDiscount": -9998000
+}]

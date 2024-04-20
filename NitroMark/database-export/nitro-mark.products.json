@@ -1,0 +1,584 @@
+[{
+  "_id": {
+    "$oid": "63fd668b0e2874ab6b4cc648"
+  },
+  "title": "Apple Macbook Air 13inch",
+  "slug": "apple-macbook-air-13inch",
+  "description": "<p>Apple Macbook Air 13inch</p>",
+  "price": 600,
+  "category": "Macbook",
+  "brand": "Apple",
+  "quantity": 0,
+  "sold": 0,
+  "images": [
+    {
+      "public_id": "or3v4rx22rkpfqgzrtiw",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551235/or3v4rx22rkpfqgzrtiw.png",
+      "_id": {
+        "$oid": "63fd668b0e2874ab6b4cc649"
+      }
+    },
+    {
+      "public_id": "zumh3ah0lodhrjgmcs0y",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551237/zumh3ah0lodhrjgmcs0y.png",
+      "_id": {
+        "$oid": "63fd668b0e2874ab6b4cc64a"
+      }
+    },
+    {
+      "public_id": "v1fq40nz6vz5yz8p78y4",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551238/v1fq40nz6vz5yz8p78y4.png",
+      "_id": {
+        "$oid": "63fd668b0e2874ab6b4cc64b"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "featured",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-02-28T02:27:23.892Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-28T02:27:23.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63fd67a80e2874ab6b4cc680"
+  },
+  "title": "Apple Macbook Pro 16inch",
+  "slug": "apple-macbook-pro-16inch",
+  "description": "<p>Apple Macbook Pro 16inch</p>",
+  "price": 700,
+  "category": "Macbook",
+  "brand": "Apple",
+  "quantity": 100,
+  "sold": 0,
+  "images": [
+    {
+      "public_id": "hh7vxesjbqkutzyrwdey",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551520/hh7vxesjbqkutzyrwdey.png",
+      "_id": {
+        "$oid": "63fd67a80e2874ab6b4cc681"
+      }
+    },
+    {
+      "public_id": "mowxampcwvahgfmhkqay",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551522/mowxampcwvahgfmhkqay.png",
+      "_id": {
+        "$oid": "63fd67a80e2874ab6b4cc682"
+      }
+    },
+    {
+      "public_id": "bgnb4jgjh4suebf4njes",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551523/bgnb4jgjh4suebf4njes.png",
+      "_id": {
+        "$oid": "63fd67a80e2874ab6b4cc683"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "featured",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-02-28T02:32:08.596Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-28T02:32:08.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63fd68d00e2874ab6b4cc6ca"
+  },
+  "title": "Apple Macbook Pro 14inch",
+  "slug": "apple-macbook-pro-14inch",
+  "description": "<p>Apple Macbook Pro 14inch</p>",
+  "price": 600,
+  "category": "Macbook",
+  "brand": "Apple",
+  "quantity": 92,
+  "sold": 8,
+  "images": [
+    {
+      "public_id": "jcg8adkndhcsk6vpcecz",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551815/jcg8adkndhcsk6vpcecz.png",
+      "_id": {
+        "$oid": "63fd68d00e2874ab6b4cc6cb"
+      }
+    },
+    {
+      "public_id": "jr4tf1mjjxddptuhivvb",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551817/jr4tf1mjjxddptuhivvb.png",
+      "_id": {
+        "$oid": "63fd68d00e2874ab6b4cc6cc"
+      }
+    },
+    {
+      "public_id": "ecqublri273zdoemo87i",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677551818/ecqublri273zdoemo87i.png",
+      "_id": {
+        "$oid": "63fd68d00e2874ab6b4cc6cd"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "featured",
+  "totalrating": 5,
+  "ratings": [
+    {
+      "star": 5,
+      "comment": "Great",
+      "postedby": {
+        "$oid": "63ef88e6a3d47f1c3c668b73"
+      },
+      "_id": {
+        "$oid": "63fe0346b7d7892051bde589"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-02-28T02:37:04.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:15:25.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63ff614077d4a5c3b4485034"
+  },
+  "title": "Iphone 12",
+  "slug": "iphone-12",
+  "description": "<p>Iphone 12 </p>",
+  "price": 400,
+  "category": "Smart Phone",
+  "brand": "Apple",
+  "quantity": 98,
+  "sold": 2,
+  "images": [
+    {
+      "public_id": "okv8yqwucvbbtamri8kb",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677680955/okv8yqwucvbbtamri8kb.jpg",
+      "_id": {
+        "$oid": "63ff614077d4a5c3b4485035"
+      }
+    },
+    {
+      "public_id": "tdvs7a7dert4h9ftc2rk",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1677680956/tdvs7a7dert4h9ftc2rk.jpg",
+      "_id": {
+        "$oid": "63ff614077d4a5c3b4485036"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "special",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-01T14:29:20.297Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-10T14:39:43.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640708e750b75a7ae88728e0"
+  },
+  "title": "Acer Aspire 3 a315 Intel i5",
+  "slug": "acer-aspire-3-a315-intel-i5",
+  "description": "<p>Acer Aspire 3 a315 Intel i5</p>",
+  "price": 500,
+  "category": "Laptop",
+  "brand": "Acer",
+  "quantity": 100,
+  "sold": 0,
+  "images": [
+    {
+      "public_id": "mrksexdwtzhuahdwohgl",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678438392/acer-aspire-3-a315-58-52kt-i5-nxam0sv006-1_Custom_gf9ypq.jpg",
+      "_id": {
+        "$oid": "640708e750b75a7ae88728e1"
+      }
+    },
+    {
+      "public_id": "tgtqdbhxyplqnclz0h8y",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182614/tgtqdbhxyplqnclz0h8y.jpg",
+      "_id": {
+        "$oid": "640708e750b75a7ae88728e2"
+      }
+    },
+    {
+      "public_id": "jlvrbxlwlcqim6ihtlqh",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182616/jlvrbxlwlcqim6ihtlqh.jpg",
+      "_id": {
+        "$oid": "640708e750b75a7ae88728e3"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "featured",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-07T09:50:31.159Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-07T09:50:31.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6407095950b75a7ae887290f"
+  },
+  "title": "Asus TUF Gaming fx506lhb Intel i5",
+  "slug": "asus-tuf-gaming-fx506lhb-intel-i5",
+  "description": "<p>Asus TUF Gaming fx506lhb Intel i5</p>",
+  "price": 500,
+  "category": "Laptop",
+  "brand": "Asus",
+  "quantity": 100,
+  "sold": 0,
+  "images": [
+    {
+      "public_id": "rxzvm2p6nplyjiziu9us",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182856/wchgl088yuyjuzamibc2.jpg",
+      "_id": {
+        "$oid": "6407095950b75a7ae8872910"
+      }
+    },
+    {
+      "public_id": "izak5v3to91npm62lboi",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182735/izak5v3to91npm62lboi.jpg",
+      "_id": {
+        "$oid": "6407095950b75a7ae8872911"
+      }
+    },
+    {
+      "public_id": "td9ni0vhbfqglleixill",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182737/td9ni0vhbfqglleixill.jpg",
+      "_id": {
+        "$oid": "6407095950b75a7ae8872912"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "popular",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-07T09:52:25.446Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-07T09:52:25.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "640709d050b75a7ae887292e"
+  },
+  "title": "Dell Gaming g15 5511 i5",
+  "slug": "dell-gaming-g15-5511-i5",
+  "description": "<p>Dell Gaming g15 5511 i5</p>",
+  "price": 500,
+  "category": "Laptop",
+  "brand": "Dell",
+  "quantity": 98,
+  "sold": 0,
+  "images": [
+    {
+      "public_id": "wchgl088yuyjuzamibc2",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182856/wchgl088yuyjuzamibc2.jpg",
+      "_id": {
+        "$oid": "640709d050b75a7ae887292f"
+      }
+    },
+    {
+      "public_id": "bqnsg1mjxbvbwu0nlzda",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182858/bqnsg1mjxbvbwu0nlzda.jpg",
+      "_id": {
+        "$oid": "640709d050b75a7ae8872930"
+      }
+    },
+    {
+      "public_id": "csddjoic5zcipwsvlfgc",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678182859/csddjoic5zcipwsvlfgc.jpg",
+      "_id": {
+        "$oid": "640709d050b75a7ae8872931"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "featured",
+  "totalrating": 1,
+  "ratings": [
+    {
+      "star": 1,
+      "comment": "awesome",
+      "postedby": {
+        "$oid": "661fe1bff914cc56fcc8dd05"
+      },
+      "_id": {
+        "$oid": "66208a825938418d6feddf14"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-03-07T09:54:24.096Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:50:53.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64070a6050b75a7ae8872956"
+  },
+  "title": "Iphone14 Pro",
+  "slug": "iphone14-pro",
+  "description": "<p>Iphone14 Pro</p>",
+  "price": 350,
+  "category": "Smart Phone",
+  "brand": "Apple",
+  "quantity": 100,
+  "sold": 0,
+  "images": [
+    {
+      "public_id": "uufeokrbzuzrrjjwwthb",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183000/uufeokrbzuzrrjjwwthb.jpg",
+      "_id": {
+        "$oid": "64070a6050b75a7ae8872958"
+      }
+    },
+    {
+      "public_id": "otku46xx1ru98tsy8rm3",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183002/otku46xx1ru98tsy8rm3.jpg",
+      "_id": {
+        "$oid": "64070a6050b75a7ae8872959"
+      }
+    },
+    {
+      "public_id": "jcku8buolj3otiempk2c",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183003/jcku8buolj3otiempk2c.jpg",
+      "_id": {
+        "$oid": "64070a6050b75a7ae887295a"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "popular",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-07T09:56:48.325Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-07T09:56:48.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64070abc50b75a7ae887299e"
+  },
+  "title": "Iphone 14 Pro Max",
+  "slug": "iphone-14-pro-max",
+  "description": "<p>Iphone 14 Pro Max</p>",
+  "price": 500,
+  "category": "Smart Phone",
+  "brand": "Apple",
+  "quantity": 99,
+  "sold": 0,
+  "images": [],
+  "color": "Purple",
+  "tags": "special",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-07T09:58:20.307Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:10:44.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64070b1050b75a7ae88729cd"
+  },
+  "title": "Samsung Galaxy S23 Ultra",
+  "slug": "samsung-galaxy-s23-ultra",
+  "description": "<p>Samsung Galaxy S23 Ultra</p>",
+  "price": 450,
+  "category": "Smart Phone",
+  "brand": "Samsung",
+  "quantity": 98,
+  "sold": 1,
+  "images": [
+    {
+      "public_id": "nhnyvi0zn3cmbbjq6c2s",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183176/nhnyvi0zn3cmbbjq6c2s.jpg",
+      "_id": {
+        "$oid": "64070b1050b75a7ae88729cf"
+      }
+    },
+    {
+      "public_id": "gov5aecu3jvbnhrymmyp",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183178/gov5aecu3jvbnhrymmyp.jpg",
+      "_id": {
+        "$oid": "64070b1050b75a7ae88729d0"
+      }
+    },
+    {
+      "public_id": "vdrr5kfnnpqxzo91wvov",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183179/vdrr5kfnnpqxzo91wvov.jpg",
+      "_id": {
+        "$oid": "64070b1050b75a7ae88729d1"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "special",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-07T09:59:44.009Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-28T13:02:14.241Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64070b8350b75a7ae88729de"
+  },
+  "title": "Samsung Galaxy Zflip4",
+  "slug": "samsung-galaxy-zflip4",
+  "description": "<p>Samsung Galaxy Zflip4</p>",
+  "price": 300,
+  "category": "Smart Phone",
+  "brand": "Samsung",
+  "quantity": 94,
+  "sold": 5,
+  "images": [
+    {
+      "public_id": "bd1d0rebl8c4u6huzlty",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183292/bd1d0rebl8c4u6huzlty.jpg",
+      "_id": {
+        "$oid": "64070b8350b75a7ae88729e0"
+      }
+    },
+    {
+      "public_id": "ojtjj9irmoqtwwdhxawy",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183293/ojtjj9irmoqtwwdhxawy.jpg",
+      "_id": {
+        "$oid": "64070b8350b75a7ae88729e1"
+      }
+    },
+    {
+      "public_id": "mhqrvudi7lj1bbwejbui",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1678183295/mhqrvudi7lj1bbwejbui.jpg",
+      "_id": {
+        "$oid": "64070b8350b75a7ae88729e2"
+      }
+    }
+  ],
+  "color": [
+    "Black",
+    "White"
+  ],
+  "tags": "featured",
+  "totalrating": 1,
+  "ratings": [
+    {
+      "star": 1,
+      "comment": "good!",
+      "postedby": {
+        "$oid": "661fe1bff914cc56fcc8dd05"
+      },
+      "_id": {
+        "$oid": "662240d9a68a4ed6c7462598"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-03-07T10:01:39.821Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:01:01.103Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64070c0750b75a7ae8872a64"
+  },
+  "title": "Apple Watch S7 41mm",
+  "slug": "apple-watch-s7-41mm",
+  "description": "<p>Apple Watch S7 41mm</p>",
+  "price": 280,
+  "category": "Smart Watch",
+  "brand": "Apple",
+  "quantity": 94,
+  "sold": 6,
+  "images": [
+    {
+      "public_id": "dauz6wfvdmnbckjjswoo",
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1713428912/dauz6wfvdmnbckjjswoo.jpg",
+      "_id": {
+        "$oid": "6620d9eec20ec8ca094ad3c8"
+      }
+    }
+  ],
+  "color": "Yellow",
+  "tags": "featured",
+  "totalrating": 0,
+  "ratings": [],
+  "createdAt": {
+    "$date": "2023-03-07T10:03:51.468Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T08:29:34.217Z"
+  },
+  "__v": 0
+}]

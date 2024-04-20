@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "661fa643b4b922442a95c450"
+  },
+  "title": "Laptop",
+  "createdAt": {
+    "$date": "2024-04-17T10:36:51.104Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T10:36:51.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fa64db4b922442a95c454"
+  },
+  "title": "Smart phone",
+  "createdAt": {
+    "$date": "2024-04-17T10:37:01.370Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T10:37:01.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fa65ab4b922442a95c458"
+  },
+  "title": "Airport",
+  "createdAt": {
+    "$date": "2024-04-17T10:37:14.920Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T10:37:14.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fa660b4b922442a95c45c"
+  },
+  "title": "Headphone",
+  "createdAt": {
+    "$date": "2024-04-17T10:37:20.833Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T10:37:20.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f9c39a1b343c2f48f3dd42"
+  },
+  "title": "Camera",
+  "createdAt": {
+    "$date": "2023-02-25T08:15:22.417Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-25T08:15:22.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620d9dbc20ec8ca094ad39d"
+  },
+  "title": "Smart Watch",
+  "createdAt": {
+    "$date": "2024-04-18T08:29:15.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T08:29:15.449Z"
+  },
+  "__v": 0
+}]

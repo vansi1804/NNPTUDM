@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "661fa4b9b4b922442a95c430"
+  },
+  "firstname": "Nguyen",
+  "lastname": "Admin",
+  "email": "nitromark01@gmail.com",
+  "mobile": "0589176839",
+  "password": "$2b$10$hn0qW/IYLnoi6Eq9anA7LOdEWv5D4Fa0HUQVoDUzkuDuznzlT3NtO",
+  "role": "admin",
+  "isBlocked": false,
+  "cart": [],
+  "address": "475A Street Dien Bien Phu, Ward 25, Binh Thanh, Ho Chi Minh City",
+  "wishlist": [],
+  "createdAt": {
+    "$date": "2024-04-17T10:30:18.547Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T15:05:47.106Z"
+  },
+  "__v": 0,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWZhNGI5YjRiOTIyNDQyYTk1YzQzMCIsImlhdCI6MTcxMzUzOTE0NywiZXhwIjoxNzE2MTMxMTQ3fQ.4Tb12EpdztjFp8q81MQ_pMtO_ohgSQKZzWzOyNuYWbw"
+},
+{
+  "_id": {
+    "$oid": "661fe1bff914cc56fcc8dd05"
+  },
+  "firstname": "Sĩ",
+  "lastname": "Nguyễn",
+  "email": "vansi18042001@gmail.com",
+  "mobile": "91767477",
+  "password": "$2b$10$UZNwQPWM4qSJ6wJJCc9AF.M2TXl5VnTow/jvH31UhjjOz1k59Lpsy",
+  "role": "user",
+  "isBlocked": false,
+  "cart": [],
+  "wishlist": [
+    {
+      "$oid": "64070c0750b75a7ae8872a64"
+    },
+    {
+      "$oid": "640709d050b75a7ae887292e"
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-17T14:50:39.907Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T15:35:56.426Z"
+  },
+  "__v": 0,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MWZlMWJmZjkxNGNjNTZmY2M4ZGQwNSIsImlhdCI6MTcxMzU0MDQ1MywiZXhwIjoxNzE2MTMyNDUzfQ.x2-brWx5IGLZfHvgRF_ommqBeOMBUEKdICMbNH2xMnk",
+  "address": "26 Street 34, Linh Dong, Thu Duc, Viet Nam"
+},
+{
+  "_id": {
+    "$oid": "662086015938418d6fedde3a"
+  },
+  "firstname": "Si",
+  "lastname": "Nguyen Van",
+  "email": "vansi1804@gmail.com",
+  "mobile": "0917672477",
+  "password": "$2b$10$00ssiKnVu90i3KUnLYOXW.rqOl.rW.HuA9cExedCFZN/56N5p96ii",
+  "role": "user",
+  "isBlocked": false,
+  "cart": [],
+  "wishlist": [],
+  "createdAt": {
+    "$date": "2024-04-18T02:31:29.576Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T08:20:34.377Z"
+  },
+  "__v": 0,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MjA4NjAxNTkzODQxOGQ2ZmVkZGUzYSIsImlhdCI6MTcxMzQwNzc0MSwiZXhwIjoxNzE1OTk5NzQxfQ.GN2RnGiBEmoMlVUfw9HYWIz0ve97PYsrrhaTpyNkvvY"
+},
+{
+  "_id": {
+    "$oid": "66228a14a68a4ed6c746287f"
+  },
+  "firstname": "Si",
+  "lastname": "Nguyen Van",
+  "email": "vansi180401@gmail.com",
+  "mobile": "09999999",
+  "password": "$2b$10$ie.7Z5BLcrT36VuUnqGwNOD36FEosRpdTb6GhR.eZ61qguNaNjVn.",
+  "role": "user",
+  "isBlocked": true,
+  "cart": [],
+  "wishlist": [],
+  "createdAt": {
+    "$date": "2024-04-19T15:13:24.854Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T15:35:57.458Z"
+  },
+  "__v": 0
+}]

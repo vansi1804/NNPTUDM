@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "63f08c2799d272dd9c125985"
+  },
+  "title": "iPad S13+ Pro.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Coupon: Coupon 02",
+  "category": "Read To Get Coupon",
+  "numViews": 52,
+  "isLiked": false,
+  "isDisliked": false,
+  "likes": [
+    {
+      "$oid": "63ef88e6a3d47f1c3c668b73"
+    }
+  ],
+  "dislikes": [],
+  "author": "Admin",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/dgbqhmzxg/image/upload/v1680010257/main-banner-1_dbykue.jpg"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-02-18T08:28:23.668Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:45:44.850Z"
+  },
+  "__v": 0
+}]
